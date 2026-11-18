@@ -30,3 +30,12 @@ Firmware will be added after the current implementation, wiring and supporting t
 Record actual laboratory dates, team responsibilities, settings, measurements and observations. Keep proposed changes separate from tested results. Each laboratory logbook entry must include its date, objectives, procedure, results, conclusions and reflection.
 
 The schedule must eventually include tasks, durations and actual calendar dates. Check the Moodle assessment rubric to establish whether a Microsoft Project `.mpp` submission is required.
+
+## Project tracking
+
+- [WBS and work packages](https://github.com/users/uim-g/projects/3/views/1)
+- [Kanban board](https://github.com/users/uim-g/projects/3/views/2)
+- [Roadmap by Project Week](https://github.com/users/uim-g/projects/3/views/4)
+- [Repository issues](https://github.com/uim-g/EEEE1027-Line-Following-Robot/issues)
+
+The project contains four parent work packages and fourteen sub-issues. Project Week is separate from calendar scheduling. Start dates, target dates and durations remain unset until confirmed.
