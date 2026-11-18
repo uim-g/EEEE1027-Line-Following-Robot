@@ -1,8 +1,8 @@
 # Verification Plan
 
-I use these checks to document the build and repeat tests where I still need evidence.
+The following checks remain to be supported by recorded evidence. This document does not claim they have passed.
 
-| Check | How I check | Evidence to record |
+| Check | Method | Evidence to record |
 | --- | --- | --- |
 | Motor direction and side mapping | Raise the wheels and command each motor separately in both directions | Pin map, command and observed direction |
 | PWM response | Compare both wheels across recorded PWM settings under consistent conditions | Supply, settings and measured speed where available |
@@ -13,8 +13,8 @@ I use these checks to document the build and repeat tests where I still need evi
 | Bend handling | Test gradual, sharp and right-angle bends separately | Trial count, completion observations and line-loss locations |
 | Line recovery | Test defined loss-of-line cases | Initial condition, recovery behaviour and timeout response |
 
-## My trial records
+## Recording a trial
 
-For each run I record the date, operator, firmware and wiring revisions, battery condition, sensor layout, track, settings and result. I set the success criteria before the trial and keep failed runs alongside successful ones. I label visual estimates separately from measurements.
+Record the actual date, operator, firmware revision, wiring revision, battery condition, sensor configuration, track layout, settings and observed outcome. Agree success criteria before interpreting results. Retain unsuccessful trials and distinguish measurements from visual estimates.
 
-In the single-sensor trial I saw the display change and confirmed that each side could drive independently. We stopped testing that setup after repeated overshoot at sharp bends. I still need measured wheel-speed data and repeatable recovery results for the three-sensor build.
+The single-sensor record supports independent motor actuation and changing display indications. It does not establish measured wheel-speed regulation, a proven cause of corner overshoot or stable right-angle tracking.

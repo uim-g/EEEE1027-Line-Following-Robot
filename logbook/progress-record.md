@@ -1,21 +1,37 @@
-# My Progress Record
+# Progress Record
 
-I put this summary together on 18 November 2026 using my notes and our group timeline.
+Compiled: 18 November 2026. This is the documentation date, not the date of any laboratory experiment. Laboratory dates and individual responsibilities still need reconciliation with the original records.
 
-## Week 1, 27–30 October
+## Week 1 activities
 
-I helped assemble and rework the 4WD chassis. We tested the bench H-bridge at 1.5 V and 3 V. My earlier notes list no-load currents of 0.16 A and 0.20 A and loaded currents of around 0.25–0.26 A and 0.40 A. We restored motor drive by returning the direction inputs to A1–A4 and fitted the optical gates.
+**Objectives:** Work with H-bridge forward/reverse motor control, assemble the chassis, operate the Arduino UNO and LCD, and investigate optical speed sensing and left/right PWM adjustment.
 
-I worked on the countdown and adjusted the left and right PWM without encoder feedback. At 110/160 I saw the LCD display the countdown and the car stop at 10 s with a slight left drift. My teammate recorded straight travel at 110/150. I still need the demonstrator confirmation and the remaining motor measurements.
+**Procedure:** These topics are recorded as Week 1 activities. The detailed sequence, settings and responsibilities have not yet been established.
 
-## Week 2, sensor build
+**Results:** ENA D11, ENB D3 and optical inputs D2/D12 are reported. No complete set of measurements or pass results is available in this record.
 
-We tested the homemade infrared sensor on a breadboard and transferred the circuit to Veroboard. I have the board layout and photographs of both sides. I still need to confirm the lab date and record standalone continuity, polarity and black/white measurements.
+**Conclusion and reflection:** Reconcile the wiring, measurements and observations before judging completion. PWM commands alone do not establish actual wheel speeds.
 
-## Single-sensor trial
+## Week 2 Day 1 activities
 
-I watched the LCD classification and PWM change as the sensor moved between black and white. At 180/0 PWM we confirmed that each side could run independently. The car kept overshooting sharp bends even after increasing the steering setting to 120, so we moved on to three sensors. I did not measure whether inertia caused the overshoot.
+**Objectives:** Construct a homemade infrared sensor.
 
-## Three-sensor trials
+**Procedure:** Build the circuit on a breadboard before soldering it to a circuit board.
 
-We mounted the three sensors 22 mm apart. The car initially lost the line on a bend. We added a reverse search and recorded full laps of 32 s, 27 s and 19.1 s. The 27 s trial followed a change to a 25 s finish-detection delay. The current sketch uses 18 s. I still need to confirm the settings used for the 19.1 s trial and compare the LCD distance estimate with a measured track length.
+**Results:** The construction sequence is reported. Sensor performance validation remains unconfirmed.
+
+**Conclusion and reflection:** Add the actual circuit, component values, inspection findings and black/white measurements before assessing performance.
+
+## Single-sensor control trial
+
+**Date:** Not established. The supporting summary was compiled on 17 November 2026.
+
+**Objectives:** Attempt line following with one homemade infrared sensor and differential motor commands, without wheel-speed feedback.
+
+**Procedure:** Observe LCD sensor classification and PWM indications. Compare ordinary differential drive, then command one side at PWM 180 and the other at 0. Increase STEER to 120 during bend trials.
+
+**Results:** The LCD black/white indication and PWM commands changed with sensor input. A wheel-speed difference was not clearly visible in ordinary differential testing. In the 180/0 check, the left side ran and the right side stopped on black; the right side ran and the left side stopped on white. Sharp bends, especially right-angle bends, still caused the car to overshoot the line. Increasing STEER to 120 did not resolve this.
+
+**Conclusion:** Independent left/right actuation was observed, but stable right-angle tracking was not demonstrated. This single-sensor control approach was discontinued.
+
+**Reflection:** Inertia was suggested as a possible cause but was not measured. Stronger steering, inner-wheel braking or reversal, and reverse searching on white were discussed; they must not be recorded as successful tests without evidence. Confirm the current sensor layout before further control development.
