@@ -27,7 +27,7 @@ These packages describe required work. A package is not complete solely because 
 
 ## Issue and project organisation
 
-Use work packages 1–4 as parent issues and the numbered activities as sub-issues where supported. Track activities using Backlog, Ready, In Progress, Blocked and Done. Move work to Done only when its completion evidence is available.
+Use work packages 1–4 as parent issues and the numbered activities as sub-issues where supported. Use three Kanban columns: To Do for work that has not started, Doing for work in progress, and Done for work with completion evidence. Record blockers on the relevant issue.
 
 Keep a separate Project Week field containing Week 1, Week 2 or Unscheduled. Week labels describe course periods; they do not establish calendar dates or durations.
 
