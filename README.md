@@ -6,15 +6,15 @@ EEEE1027 — Applied Electrical and Electronic Engineering Construction Project
 
 ## Project aim
 
-Develop and evaluate a line-following robot car using an Arduino UNO, motor drive electronics and infrared sensing. Record construction decisions, wiring, control development and experimental evidence throughout the project.
+A four-wheel robot for following a black line, built around an Arduino UNO, a motor driver and infrared sensors.
 
 ## Current status
 
-Week 1 activities covered H-bridge forward/reverse motor control, chassis assembly, Arduino UNO and LCD operation, optical wheel-speed sensing and left/right PWM adjustment. Completion of all related tests has not been established.
+Week 1 covered the chassis, H-bridge and LCD, followed by fixed-PWM drive tests. One run stopped after 10 seconds with a slight left drift. The group recorded straight travel at a different PWM setting.
 
-Week 2 Day 1 covered a homemade infrared sensor, built on a breadboard before soldering to a circuit board. Its performance validation has not been established.
+In Week 2 the group tested a breadboard infrared prototype and transferred it to Veroboard. Separate measurements on the soldered board are still pending.
 
-A later single-sensor trial reported responsive LCD black/white indications and independent left/right motor drive. The car still overshot sharp bends, including right-angle corners. Stable right-angle tracking was not demonstrated, and this control approach was discontinued. These observations do not establish successful completion of the full course.
+The single-sensor setup was dropped after repeated overshoot at sharp bends. The group then fitted three sensors and logged full laps of 32 s, 27 s and 19.1 s. The settings for the 19.1 s run still need confirmation.
 
 ## Project records
 
@@ -23,7 +23,7 @@ A later single-sensor trial reported responsive LCD black/white indications and 
 - [Verification plan](docs/verification-plan.md)
 - [Progress record](logbook/progress-record.md)
 
-Firmware will be added after the current implementation, wiring and supporting test evidence have been reviewed. This baseline contains project documentation only.
+Firmware is pending a wiring check and a review of the settings used for each run.
 
 ## Evidence and assessment
 
@@ -38,4 +38,4 @@ The schedule must eventually include tasks, durations and actual calendar dates.
 - [Roadmap by Project Week](https://github.com/users/uim-g/projects/3/views/4)
 - [Repository issues](https://github.com/uim-g/EEEE1027-Line-Following-Robot/issues)
 
-The project contains four parent work packages and fourteen sub-issues. Project Week is separate from calendar scheduling. Start dates, target dates and durations remain unset until confirmed.
+Project Week identifies the course period. The Roadmap shows the start dates, finish dates and durations entered so far.

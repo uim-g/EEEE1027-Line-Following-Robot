@@ -2,7 +2,7 @@
 
 ## Work packages
 
-These packages describe required work. A package is not complete solely because its topic appeared in a laboratory session.
+The table summarises the original work breakdown. The GitHub Project lists the current tasks and recorded results.
 
 | WBS | Work package | Project Week | Completion evidence |
 | --- | --- | --- | --- |
@@ -27,8 +27,8 @@ These packages describe required work. A package is not complete solely because 
 
 ## Issue and project organisation
 
-Use work packages 1–4 as parent issues and the numbered activities as sub-issues where supported. Use three Kanban columns: To Do for work that has not started, Doing for work in progress, and Done for work with completion evidence. Record blockers on the relevant issue.
+The Kanban board uses To Do, Doing and Done. Record any blocker on the relevant issue and link the test record when closing a task.
 
-Keep a separate Project Week field containing Week 1, Week 2 or Unscheduled. Week labels describe course periods; they do not establish calendar dates or durations.
+Project Week groups the tasks by course period.
 
-Use a Board view for Kanban and a Roadmap view for the schedule. Leave start and target dates unset until actual dates are confirmed. Without dates and durations, the current work breakdown is not a completed Gantt chart. GitHub view and field availability must be checked during project setup.
+The [Roadmap](https://github.com/users/uim-g/projects/3/views/4) shows start dates, finish dates and confirmed durations. The Challenge 1 demonstration date is pending confirmation.

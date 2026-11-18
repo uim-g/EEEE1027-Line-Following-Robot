@@ -2,7 +2,7 @@
 
 ## Recorded configurations
 
-The connections below belong to particular activities. They must be checked against the current physical build before reuse.
+Pin assignments from the Week 1 build and the single-sensor trial. Check them against the current car before reusing them.
 
 | Activity | Signal | Recorded connection | Evidence status |
 | --- | --- | --- | --- |
@@ -12,7 +12,7 @@ The connections below belong to particular activities. They must be checked agai
 | Single-sensor trial | IN1, IN2, IN3, IN4 | Arduino A1, A2, A3, A4 respectively | Recorded for the discontinued configuration |
 | Single-sensor trial | ENA, ENB | Arduino D11, D3 respectively | Recorded for the discontinued configuration |
 
-The single-sensor trial did not use wheel-speed feedback. Its infrared input pin is not established in the available record.
+The single-sensor trial ran without wheel-speed feedback. The infrared input pin was not recorded.
 
 ## Construction record
 
