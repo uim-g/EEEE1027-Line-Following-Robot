@@ -23,7 +23,13 @@ The single-sensor setup was dropped after repeated overshoot at sharp bends. The
 - [Verification plan](docs/verification-plan.md)
 - [Progress record](logbook/progress-record.md)
 
-Firmware is pending a wiring check and a review of the settings used for each run.
+## Firmware
+
+[Line_Following_1.ino](src/Line_Following_1/Line_Following_1.ino) is the current three-sensor development sketch. Open it in Arduino IDE, select **Arduino Uno**, and install the **LiquidCrystal** library if needed.
+
+The sketch reads left, centre and right sensors on D2, A5 and D12. These pins overlap the earlier optical speed inputs on D2 and D12. Check the wiring, sensor polarity and motor directions before a track run. SELECT starts or stops a run, and RIGHT switches between the sensor and statistics displays.
+
+The current sketch arms finish detection after 18 seconds. It estimates distance from the applied PWM. The settings used for the 19.1-second run and the accuracy of the distance estimate still need confirmation.
 
 ## Evidence and assessment
 
